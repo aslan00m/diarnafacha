@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>معرض أعمال الواجهات الحجرية | ديارنا الحديثة</title>
+<meta name="description" content="استعرض مشاريعنا المنفذة في واجهات الحجر للفلل والعمائر السكنية والمشاريع التجارية بالرياض والمملكة العربية السعودية." />
+<link rel="canonical" href="https://example.com/gallery.html" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="header header--inner" id="header">
+  <div class="container header__inner">
+    <a href="index.html" class="brand">
+      <span class="brand__mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 21V9l9-5 9 5v12"/><path d="M9 21v-8h6v8"/></svg></span>
+      <span><span class="brand__name">ديارنا الحديثة</span><br><span class="brand__sub">للحجر والواجهات</span></span>
+    </a>
+    <nav class="header__nav">
+      <a href="services.html">خدماتنا</a>
+      <a href="gallery.html" class="active">أعمالنا</a>
+      <a href="about.html">من نحن</a>
+      <a href="process.html">مراحل العمل</a>
+      <a href="faq.html">الأسئلة</a>
+      <a href="contact.html">اتصل بنا</a>
+    </nav>
+    <div class="header__cta">
+      <a href="quote.html" class="btn btn--primary">اطلب عرض سعر</a>
+      <button class="header__toggle" id="menuOpen" aria-label="فتح القائمة"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<div class="mmenu" id="mmenu">
+  <button class="mmenu__close" id="menuClose"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  <ul>
+    <li><a href="index.html">الرئيسية</a></li>
+    <li><a href="services.html">خدماتنا</a></li>
+    <li><a href="gallery.html" class="active">أعمالنا</a></li>
+    <li><a href="about.html">من نحن</a></li>
+    <li><a href="process.html">مراحل العمل</a></li>
+    <li><a href="faq.html">الأسئلة الشائعة</a></li>
+    <li><a href="contact.html">اتصل بنا</a></li>
+  </ul>
+  <div class="mmenu__cta">
+    <a href="quote.html" class="btn btn--primary btn--block btn--lg">اطلب عرض سعر</a>
+    <a href="https://wa.me/966536089153" target="_blank" rel="noopener" class="btn btn--outline btn--block btn--lg" style="border-color:rgba(255,255,255,.3);color:#fff">واتساب</a>
+  </div>
+</div>
+
+<main>
+
+<section class="page-hero">
+  <div class="container page-hero__inner" data-reveal>
+    <div class="breadcrumbs"><a href="index.html">الرئيسية</a><span>/</span><span>معرض الأعمال</span></div>
+    <span class="eyebrow">أعمالنا المنفذة</span>
+    <h1 class="h1">معرض مشاريع الحجر والواجهات</h1>
+    <p class="lead">نماذج مختارة من أعمال تنفيذ الواجهات الحجرية للفلل والعمائر السكنية والمشاريع التجارية، بأنماط وتطبيقات مختلفة تعكس دقة التنفيذ.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+
+    <!-- Filters -->
+    <div class="filters" role="tablist" aria-label="تصنيفات المعرض" data-reveal>
+      <button class="filter active" data-filter="all" role="tab" aria-selected="true">الكل</button>
+      <button class="filter" data-filter="villas" role="tab" aria-selected="false">واجهات فلل</button>
+      <button class="filter" data-filter="buildings" role="tab" aria-selected="false">عمائر سكنية</button>
+      <button class="filter" data-filter="commercial" role="tab" aria-selected="false">مشاريع تجارية</button>
+      <button class="filter" data-filter="finishes" role="tab" aria-selected="false">تفاصيل وتشطيبات</button>
+    </div>
+
+    <!-- Grid -->
+    <div class="gallery" id="gallery-grid">
+
+      <figure class="gitem gitem--wide" data-cat="villas">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=75" alt="واجهة فيلا حجرية مودرن في الرياض" loading="lazy" decoding="async">
+        <figcaption class="gitem__cap">
+          <strong>فيلا سكنية — نمط مودرن</strong>
+          <span>حجر طبيعي كريمي مع نوافذ طولية</span>
+        </figcaption>
+      </figure>
+
+      <figure class="gitem" data-cat="villas">
+        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=70" alt="واجهة فيلا كلاسيكية بالحجر الطبيعي" loading="lazy" decoding="async">
+        <figcaption class="gitem__cap">
+          <strong>فيلا خاصة — تفاصيل حجرية</strong>
+          <span>كرانيش وأعمدة حجرية منحوتة</span>
+        </figcaption>
+      </figure>
+
+      <figure class="gitem gitem--tall" data-cat="buildings">
+        <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=800&q=70" alt="واجهة عمارة سكنية بالحجر الميكانيكي" loading="lazy" decoding="async">
+        <figcaption class="gitem__cap">
+          <strong>عمارة سكنية متعددة الأدوار</strong>
+          <span>تركيب ميكانيكي بحجر الرياض</span>
+        </figcaption>
+      </figure>
+
+      <figure class="gitem" data-cat="commercial">
+        <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=70" alt="واجهة مجمع تجاري بالحجر والزجاج" loading="lazy" decoding="async">
+        <figcaption class="gitem__cap">
+          <strong>مقر تجاري متكامل</strong>
+          <span>دمج الحجر مع واجهات زجاجية</span>
+        </figcaption>
+      </figure>
+
+      <figure class="gitem" data-cat="finishes">
+        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=70" alt="تفاصيل زوايا وأركان الحجر المنفذ" loading="lazy" decoding="async">
+        <figcaption class="gitem__cap">
+          <strong>تفاصيل الزوايا والفواصل</strong>
+          <span>تشطيب بوشارده دقيق مع فواصل مسحوبة</span>
+        </figcaption>
+      </figure>
+
+      <figure class="gitem gitem--wide" data-cat="villas">
+        <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=75" alt="فيلا فاخرة بحجر الرياض البيج" loading="lazy" decoding="async">
+        <figcaption class="gitem__cap">
+          <strong>فيلا فاخرة — شمال الرياض</strong>
+          <span>حجر طبيعي مجلي مع إنارة مخفية</span>
+        </figcaption>
+      </figure>
+
+      <figure class="gitem" data-cat="commercial">
+        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=70" alt="برج ومبنى مكتبي واجهة حجرية" loading="lazy" decoding="async">
+        <figcaption class="gitem__cap">
+          <strong>مبنى إداري ومكتبي</strong>
+          <span>تكسية حجرية خارجية متينة</span>
+        </figcaption>
+      </figure>
+
+      <figure class="gitem" data-cat="buildings">
+        <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=70" alt="مجمع سكني واجهات حجر" loading="lazy" decoding="async">
+        <figcaption class="gitem__cap">
+          <strong>مجمع شقق فاخرة</strong>
+          <span>واجهات حجرية بلمسات نيوكلاسيك</span>
+        </figcaption>
+      </figure>
+
+      <figure class="gitem" data-cat="finishes">
+        <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=70" alt="تشطيب حجر طبزة وبوشارده" loading="lazy" decoding="async">
+        <figcaption class="gitem__cap">
+          <strong>عينات تشطيبات حجرية</strong>
+          <span>ملمس مسمسم وطبزة للأحزمة والأعمدة</span>
+        </figcaption>
+      </figure>
+
+    </div>
+
+    <p class="gallery__note">الصور المعروضة توضح نماذج من أساليب التنفيذ وطبيعة الأعمال التي نقوم بتنفيذها.</p>
+
+    <!-- Bottom CTA -->
+    <div style="margin-top:56px" data-reveal>
+      <div class="cta-band">
+        <div>
+          <span class="eyebrow">واجهتك القادمة</span>
+          <h2 class="h2">هل ترغب بتنفيذ واجهة مماثلة لمشروعك؟</h2>
+          <p class="lead">أرسل لنا صورة الواجهة التي تعجبك مع تفاصيل مشروعك للحصول على عرض سعر فوري ومدروس.</p>
+        </div>
+        <div class="cta-band__actions">
+          <a href="quote.html" class="btn btn--primary btn--lg">اطلب عرض سعر</a>
+          <a href="https://wa.me/966536089153" target="_blank" rel="noopener" class="btn btn--ghost btn--lg">أرسل صورة عبر واتساب</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="brand">
+          <span class="brand__mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 21V9l9-5 9 5v12"/><path d="M9 21v-8h6v8"/></svg></span>
+          <span><span class="brand__name">ديارنا الحديثة</span><br><span class="brand__sub">للحجر والواجهات</span></span>
+        </div>
+        <p class="footer__about">شركة ديارنا الحديثة للاستثمار — مقاولات الحجر والواجهات للمشاريع السكنية والتجارية في الرياض والمملكة العربية السعودية.</p>
+      </div>
+      <div>
+        <h4>الخدمات</h4>
+        <ul>
+          <li><a href="services.html">تنفيذ الواجهات</a></li>
+          <li><a href="services.html">تركيب الحجر</a></li>
+          <li><a href="services.html">واجهات الفلل</a></li>
+          <li><a href="services.html">واجهات العمائر</a></li>
+          <li><a href="services.html">تجديد الواجهات</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>روابط سريعة</h4>
+        <ul>
+          <li><a href="about.html">من نحن</a></li>
+          <li><a href="gallery.html">أعمالنا</a></li>
+          <li><a href="process.html">مراحل العمل</a></li>
+          <li><a href="faq.html">الأسئلة الشائعة</a></li>
+          <li><a href="quote.html">اطلب عرض سعر</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>التواصل</h4>
+        <ul class="footer__contact">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg><span>الرياض، المملكة العربية السعودية</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 2 .7 2.8a2 2 0 01-.5 2.1L8.1 9.9a16 16 0 006 6l1.3-1.2a2 2 0 012.1-.5c.9.3 1.8.6 2.8.7a2 2 0 011.7 2z"/></svg><a href="tel:0536089153" dir="ltr">0536089153</a></li>
+          <li><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11.9 11.9 0 0012 0C5.4 0 .1 5.3.1 11.9c0 2.1.5 4.2 1.6 6L0 24l6.3-1.6a11.9 11.9 0 005.7 1.4h.1c6.5 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.5-8.4z"/></svg><a href="https://wa.me/966536089153" target="_blank" rel="noopener" dir="ltr">0536089153</a></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg><a href="mailto:Re@tajeermodat.com" dir="ltr">Re@tajeermodat.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span id="year"></span> شركة ديارنا الحديثة للاستثمار — جميع الحقوق محفوظة.</span>
+      <span>مقاولات الحجر والواجهات · الرياض</span>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/966536089153" target="_blank" rel="noopener" class="wa-float" aria-label="واتساب">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11.9 11.9 0 0012 0C5.4 0 .1 5.3.1 11.9c0 2.1.5 4.2 1.6 6L0 24l6.3-1.6a11.9 11.9 0 005.7 1.4h.1c6.5 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.5-8.4z"/></svg>
+</a>
+
+<div class="mobile-cta">
+  <a href="https://wa.me/966536089153" target="_blank" rel="noopener" class="m-wa"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11.9 11.9 0 0012 0C5.4 0 .1 5.3.1 11.9c0 2.1.5 4.2 1.6 6L0 24l6.3-1.6a11.9 11.9 0 005.7 1.4h.1c6.5 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.5-8.4z"/></svg> واتساب</a>
+  <a href="tel:0536089153" class="m-call"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 2 .7 2.8a2 2 0 01-.5 2.1L8.1 9.9a16 16 0 006 6l1.3-1.2a2 2 0 012.1-.5c.9.3 1.8.6 2.8.7a2 2 0 011.7 2z"/></svg> اتصل</a>
+</div>
+
+<script src="main.js" defer></script>
+</body>
+</html>

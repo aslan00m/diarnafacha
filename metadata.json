@@ -1,0 +1,6 @@
+{
+  "name": "ديارنا الحديثة | مقاولات الحجر والواجهات",
+  "description": "موقع متكامل لمقاولات الحجر والواجهات في الرياض - ديارنا الحديثة. تنفيذ وتركيب الواجهات الحجرية للفلل والعمائر والمشاريع التجارية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
